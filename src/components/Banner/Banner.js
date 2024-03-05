@@ -10,7 +10,7 @@ function Banner() {
             // const randomIndex = Math.floor(Math.random() * response.data.results.length);
             const randomIndex = Math.floor(Math.random() * 20)+1;
             const randomMovie = response.data.results[randomIndex];
-            console.log(randomIndex)
+            console.log(response.data.results)
             setMovie(randomMovie);
         })
     },[])
